@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA20728F210FB7B200C5C111 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA20728E210FB7B200C5C111 /* AppDelegate.swift */; };
+		CA207291210FB7B200C5C111 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA207290210FB7B200C5C111 /* ViewController.swift */; };
+		CA207294210FB7B200C5C111 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA207292210FB7B200C5C111 /* Main.storyboard */; };
+		CA207296210FB7B200C5C111 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA207295210FB7B200C5C111 /* Assets.xcassets */; };
+		CA207299210FB7B200C5C111 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA207297210FB7B200C5C111 /* LaunchScreen.storyboard */; };
+		CA2072A4210FB7B300C5C111 /* RadSimTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2072A3210FB7B300C5C111 /* RadSimTests.swift */; };
+		CA2072AF210FB7B300C5C111 /* RadSimUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2072AE210FB7B300C5C111 /* RadSimUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA2072A0210FB7B300C5C111 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA207283210FB7B200C5C111 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA20728A210FB7B200C5C111;
+			remoteInfo = RadSim;
+		};
+		CA2072AB210FB7B300C5C111 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA207283210FB7B200C5C111 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA20728A210FB7B200C5C111;
+			remoteInfo = RadSim;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA20728B210FB7B200C5C111 /* RadSim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RadSim.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA20728E210FB7B200C5C111 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CA207290210FB7B200C5C111 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CA207293210FB7B200C5C111 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA207295210FB7B200C5C111 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA207298210FB7B200C5C111 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA20729A210FB7B200C5C111 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA20729F210FB7B300C5C111 /* RadSimTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RadSimTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA2072A3210FB7B300C5C111 /* RadSimTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadSimTests.swift; sourceTree = "<group>"; };
+		CA2072A5210FB7B300C5C111 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA2072AA210FB7B300C5C111 /* RadSimUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RadSimUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA2072AE210FB7B300C5C111 /* RadSimUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadSimUITests.swift; sourceTree = "<group>"; };
+		CA2072B0210FB7B300C5C111 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA207288210FB7B200C5C111 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA20729C210FB7B300C5C111 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA2072A7210FB7B300C5C111 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA207282210FB7B200C5C111 = {
+			isa = PBXGroup;
+			children = (
+				CA20728D210FB7B200C5C111 /* RadSim */,
+				CA2072A2210FB7B300C5C111 /* RadSimTests */,
+				CA2072AD210FB7B300C5C111 /* RadSimUITests */,
+				CA20728C210FB7B200C5C111 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA20728C210FB7B200C5C111 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA20728B210FB7B200C5C111 /* RadSim.app */,
+				CA20729F210FB7B300C5C111 /* RadSimTests.xctest */,
+				CA2072AA210FB7B300C5C111 /* RadSimUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA20728D210FB7B200C5C111 /* RadSim */ = {
+			isa = PBXGroup;
+			children = (
+				CA20728E210FB7B200C5C111 /* AppDelegate.swift */,
+				CA207290210FB7B200C5C111 /* ViewController.swift */,
+				CA207292210FB7B200C5C111 /* Main.storyboard */,
+				CA207295210FB7B200C5C111 /* Assets.xcassets */,
+				CA207297210FB7B200C5C111 /* LaunchScreen.storyboard */,
+				CA20729A210FB7B200C5C111 /* Info.plist */,
+			);
+			path = RadSim;
+			sourceTree = "<group>";
+		};
+		CA2072A2210FB7B300C5C111 /* RadSimTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA2072A3210FB7B300C5C111 /* RadSimTests.swift */,
+				CA2072A5210FB7B300C5C111 /* Info.plist */,
+			);
+			path = RadSimTests;
+			sourceTree = "<group>";
+		};
+		CA2072AD210FB7B300C5C111 /* RadSimUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CA2072AE210FB7B300C5C111 /* RadSimUITests.swift */,
+				CA2072B0210FB7B300C5C111 /* Info.plist */,
+			);
+			path = RadSimUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA20728A210FB7B200C5C111 /* RadSim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA2072B3210FB7B300C5C111 /* Build configuration list for PBXNativeTarget "RadSim" */;
+			buildPhases = (
+				CA207287210FB7B200C5C111 /* Sources */,
+				CA207288210FB7B200C5C111 /* Frameworks */,
+				CA207289210FB7B200C5C111 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RadSim;
+			productName = RadSim;
+			productReference = CA20728B210FB7B200C5C111 /* RadSim.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA20729E210FB7B300C5C111 /* RadSimTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA2072B6210FB7B300C5C111 /* Build configuration list for PBXNativeTarget "RadSimTests" */;
+			buildPhases = (
+				CA20729B210FB7B300C5C111 /* Sources */,
+				CA20729C210FB7B300C5C111 /* Frameworks */,
+				CA20729D210FB7B300C5C111 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA2072A1210FB7B300C5C111 /* PBXTargetDependency */,
+			);
+			name = RadSimTests;
+			productName = RadSimTests;
+			productReference = CA20729F210FB7B300C5C111 /* RadSimTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CA2072A9210FB7B300C5C111 /* RadSimUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA2072B9210FB7B300C5C111 /* Build configuration list for PBXNativeTarget "RadSimUITests" */;
+			buildPhases = (
+				CA2072A6210FB7B300C5C111 /* Sources */,
+				CA2072A7210FB7B300C5C111 /* Frameworks */,
+				CA2072A8210FB7B300C5C111 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA2072AC210FB7B300C5C111 /* PBXTargetDependency */,
+			);
+			name = RadSimUITests;
+			productName = RadSimUITests;
+			productReference = CA2072AA210FB7B300C5C111 /* RadSimUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA207283210FB7B200C5C111 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Dana Dolat";
+				TargetAttributes = {
+					CA20728A210FB7B200C5C111 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					CA20729E210FB7B300C5C111 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CA20728A210FB7B200C5C111;
+					};
+					CA2072A9210FB7B300C5C111 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CA20728A210FB7B200C5C111;
+					};
+				};
+			};
+			buildConfigurationList = CA207286210FB7B200C5C111 /* Build configuration list for PBXProject "RadSim" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA207282210FB7B200C5C111;
+			productRefGroup = CA20728C210FB7B200C5C111 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA20728A210FB7B200C5C111 /* RadSim */,
+				CA20729E210FB7B300C5C111 /* RadSimTests */,
+				CA2072A9210FB7B300C5C111 /* RadSimUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA207289210FB7B200C5C111 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA207299210FB7B200C5C111 /* LaunchScreen.storyboard in Resources */,
+				CA207296210FB7B200C5C111 /* Assets.xcassets in Resources */,
+				CA207294210FB7B200C5C111 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA20729D210FB7B300C5C111 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA2072A8210FB7B300C5C111 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA207287210FB7B200C5C111 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA207291210FB7B200C5C111 /* ViewController.swift in Sources */,
+				CA20728F210FB7B200C5C111 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA20729B210FB7B300C5C111 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA2072A4210FB7B300C5C111 /* RadSimTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA2072A6210FB7B300C5C111 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA2072AF210FB7B300C5C111 /* RadSimUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA2072A1210FB7B300C5C111 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA20728A210FB7B200C5C111 /* RadSim */;
+			targetProxy = CA2072A0210FB7B300C5C111 /* PBXContainerItemProxy */;
+		};
+		CA2072AC210FB7B300C5C111 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA20728A210FB7B200C5C111 /* RadSim */;
+			targetProxy = CA2072AB210FB7B300C5C111 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CA207292210FB7B200C5C111 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA207293210FB7B200C5C111 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA207297210FB7B200C5C111 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA207298210FB7B200C5C111 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA2072B1210FB7B300C5C111 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CA2072B2210FB7B300C5C111 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA2072B4210FB7B300C5C111 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RadSim/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = UIC.RadSim;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA2072B5210FB7B300C5C111 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RadSim/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = UIC.RadSim;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CA2072B7210FB7B300C5C111 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RadSimTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = UIC.RadSimTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RadSim.app/RadSim";
+			};
+			name = Debug;
+		};
+		CA2072B8210FB7B300C5C111 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RadSimTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = UIC.RadSimTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RadSim.app/RadSim";
+			};
+			name = Release;
+		};
+		CA2072BA210FB7B300C5C111 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RadSimUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = UIC.RadSimUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RadSim;
+			};
+			name = Debug;
+		};
+		CA2072BB210FB7B300C5C111 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RadSimUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = UIC.RadSimUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RadSim;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA207286210FB7B200C5C111 /* Build configuration list for PBXProject "RadSim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA2072B1210FB7B300C5C111 /* Debug */,
+				CA2072B2210FB7B300C5C111 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA2072B3210FB7B300C5C111 /* Build configuration list for PBXNativeTarget "RadSim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA2072B4210FB7B300C5C111 /* Debug */,
+				CA2072B5210FB7B300C5C111 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA2072B6210FB7B300C5C111 /* Build configuration list for PBXNativeTarget "RadSimTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA2072B7210FB7B300C5C111 /* Debug */,
+				CA2072B8210FB7B300C5C111 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA2072B9210FB7B300C5C111 /* Build configuration list for PBXNativeTarget "RadSimUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA2072BA210FB7B300C5C111 /* Debug */,
+				CA2072BB210FB7B300C5C111 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA207283210FB7B200C5C111 /* Project object */;
+}
