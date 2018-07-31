@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A6B2A670E94B866AA418CEB3 /* libPods-RadSim.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 693C3C1BD7A65F8AB118984F /* libPods-RadSim.a */; };
 		CA20728F210FB7B200C5C111 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA20728E210FB7B200C5C111 /* AppDelegate.swift */; };
 		CA207291210FB7B200C5C111 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA207290210FB7B200C5C111 /* ViewController.swift */; };
 		CA207294210FB7B200C5C111 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA207292210FB7B200C5C111 /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		CA207299210FB7B200C5C111 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA207297210FB7B200C5C111 /* LaunchScreen.storyboard */; };
 		CA2072A4210FB7B300C5C111 /* RadSimTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2072A3210FB7B300C5C111 /* RadSimTests.swift */; };
 		CA2072AF210FB7B300C5C111 /* RadSimUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2072AE210FB7B300C5C111 /* RadSimUITests.swift */; };
+		CA2072BD2110D7D700C5C111 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = CA2072BC2110D7D700C5C111 /* Podfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		693C3C1BD7A65F8AB118984F /* libPods-RadSim.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RadSim.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		764B278AECBCBCCDA3F1A89D /* Pods-RadSim.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RadSim.release.xcconfig"; path = "Pods/Target Support Files/Pods-RadSim/Pods-RadSim.release.xcconfig"; sourceTree = "<group>"; };
+		B0D563E7CC8EBD932C7B8F76 /* Pods-RadSim.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RadSim.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RadSim/Pods-RadSim.debug.xcconfig"; sourceTree = "<group>"; };
 		CA20728B210FB7B200C5C111 /* RadSim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RadSim.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA20728E210FB7B200C5C111 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CA207290210FB7B200C5C111 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +52,7 @@
 		CA2072AA210FB7B300C5C111 /* RadSimUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RadSimUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA2072AE210FB7B300C5C111 /* RadSimUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadSimUITests.swift; sourceTree = "<group>"; };
 		CA2072B0210FB7B300C5C111 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA2072BC2110D7D700C5C111 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6B2A670E94B866AA418CEB3 /* libPods-RadSim.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,13 +81,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8DA0FA857C0E6CE07B11FC5B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B0D563E7CC8EBD932C7B8F76 /* Pods-RadSim.debug.xcconfig */,
+				764B278AECBCBCCDA3F1A89D /* Pods-RadSim.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A55F0E954C17582D167A95F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				693C3C1BD7A65F8AB118984F /* libPods-RadSim.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CA207282210FB7B200C5C111 = {
 			isa = PBXGroup;
 			children = (
+				CA2072BC2110D7D700C5C111 /* Podfile */,
 				CA20728D210FB7B200C5C111 /* RadSim */,
 				CA2072A2210FB7B300C5C111 /* RadSimTests */,
 				CA2072AD210FB7B300C5C111 /* RadSimUITests */,
 				CA20728C210FB7B200C5C111 /* Products */,
+				8DA0FA857C0E6CE07B11FC5B /* Pods */,
+				A55F0E954C17582D167A95F2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +159,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CA2072B3210FB7B300C5C111 /* Build configuration list for PBXNativeTarget "RadSim" */;
 			buildPhases = (
+				F900A659109E34E22CF800D9 /* [CP] Check Pods Manifest.lock */,
 				CA207287210FB7B200C5C111 /* Sources */,
 				CA207288210FB7B200C5C111 /* Frameworks */,
 				CA207289210FB7B200C5C111 /* Resources */,
+				58738BC93D22998DD91A9700 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -234,6 +263,7 @@
 			files = (
 				CA207299210FB7B200C5C111 /* LaunchScreen.storyboard in Resources */,
 				CA207296210FB7B200C5C111 /* Assets.xcassets in Resources */,
+				CA2072BD2110D7D700C5C111 /* Podfile in Resources */,
 				CA207294210FB7B200C5C111 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,6 +283,45 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		58738BC93D22998DD91A9700 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RadSim/Pods-RadSim-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RadSim/Pods-RadSim-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F900A659109E34E22CF800D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RadSim-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CA207287210FB7B200C5C111 /* Sources */ = {
@@ -424,6 +493,7 @@
 		};
 		CA2072B4210FB7B300C5C111 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0D563E7CC8EBD932C7B8F76 /* Pods-RadSim.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -438,6 +508,7 @@
 		};
 		CA2072B5210FB7B300C5C111 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 764B278AECBCBCCDA3F1A89D /* Pods-RadSim.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
